@@ -1,0 +1,34 @@
+.container {
+    padding: 20px;
+    max-width: 120px;
+    margin: 0 auto;
+  }
+  
+  .movie-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .movie-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .movie-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .movie-card h3 {
+    margin: 10px 0;
+  }
+  
+  .movie-card p {
+    padding: 0 10px 10px;
+    font-size: 14px;
+    color: #555;
+  }
